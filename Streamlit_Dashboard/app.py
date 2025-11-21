@@ -37,8 +37,8 @@ if uploaded_file is not None:
         st.write("Error: Invalid CSV file. Please upload a valid CSV file.")
 else:
     # Use default CSV file if no file is uploaded
-    data_folder = os.path.join(os.path.dirname(__file__), 'D:\\Projects\\MoonLight-Energy-Solutions\\Streamlit_Dashboard')
-    file_path = os.path.join(data_folder, 'cleaned_benin_dataset.csv')
+    data_folder = os.path.dirname(__file__)
+    file_path = os.path.join(data_folder, "cleaned_benin_dataset.csv")
     data = pd.read_csv(file_path)
     st.markdown("<h4 style='font-size: 14px;'>Uploaded file contents - Default Cleaned Serra-Leone Data</h4>", unsafe_allow_html=True)
     with st.markdown(

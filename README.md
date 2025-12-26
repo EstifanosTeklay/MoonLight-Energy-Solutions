@@ -104,7 +104,22 @@ Sierra Leone presents high solar yield potential but requires:
 🚫 Not Recommended (Short-Term): Togo
 
 •  High atmospheric diffusion, extreme precipitation, and variability make Togo less suitable for immediate solar investment. Consider reassessment only after further localized or seasonal studies.
-
+## ▶️ How to Run the Project
+1. Clone the repository
+bash
+git clone https://github.com/EstifanosTeklay/AlphaCareInsurance.git
+2. Install dependencies
+pip install -r requirements.txt
+3. Run All Togo,Seralleon and Benin notebooks
+   
 🌱 Conclusion
 
 This analysis demonstrates that data-driven site selection is critical to maximizing solar investment returns. By prioritizing Benin, MoonLight Energy Solutions can deploy efficient, reliable, and sustainable solar infrastructure while minimizing environmental and operational risks.
+
+📌 Disclaimer
+
+This project is for analytical and educational purposes only. All data has
+been anonymized and does not represent real solar data.
+
+👤 Author
+### Estifanos Teklay|Data Scientist 
